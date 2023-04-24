@@ -29,7 +29,7 @@ export const {
     space: space,
   },
   themeMap: {
-    ...defaultThemeMap,
+    ...defaultThemeMap, // Quando colocamos a opção "SPACE", perdemos o autcomplete de dentro do padding, e etc, então precisamos colocar o defaultThemeMap, para que os outros não percam as opções quando for estilizar e precisar do autocomplete
     height: 'space',
     width: 'space',
   },
