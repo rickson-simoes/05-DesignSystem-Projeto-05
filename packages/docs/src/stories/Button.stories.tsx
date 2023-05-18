@@ -11,7 +11,7 @@ export default {
     size: 'md',
     variant: 'primary',
   },
-  tags: ['autodocs'],
+  tags: ['autodocs'], // non necessary tag, since the docs is configured to be on each story
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
