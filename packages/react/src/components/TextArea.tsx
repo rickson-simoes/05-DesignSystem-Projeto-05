@@ -31,3 +31,6 @@ export const TextArea = styled('textarea', {
 })
 
 export interface TextAreaProps extends ComponentProps<typeof TextArea> {}
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+TextArea.displayName = 'TextArea'

@@ -15,3 +15,6 @@ export function Avatar(props: AvatarProps) {
     </AvatarContainer>
   )
 }
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+Avatar.displayName = 'Avatar'

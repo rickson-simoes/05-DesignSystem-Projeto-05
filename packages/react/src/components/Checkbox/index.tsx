@@ -14,3 +14,6 @@ export function Checkbox(props: CheckboxProps) {
 
 export interface CheckboxProps
   extends ComponentProps<typeof CheckboxContainer> {}
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+Checkbox.displayName = 'Checkbox'

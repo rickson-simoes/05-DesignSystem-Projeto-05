@@ -88,3 +88,6 @@ export const Button = styled('button', {
 export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
 }
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+Button.displayName = 'Button'

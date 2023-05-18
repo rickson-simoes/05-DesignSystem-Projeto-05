@@ -13,3 +13,6 @@ export function TextInput({ prefix, ...props }: TextInputProps) {
     </TextInputContainer>
   )
 }
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+TextInput.displayName = 'TextInput'

@@ -20,3 +20,6 @@ export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
     </MultiStepContainer>
   )
 }
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+MultiStep.displayName = 'MultiStep'

@@ -32,3 +32,6 @@ export type HeadingProps = ComponentProps<typeof Heading> & { as?: ElementType }
 // export interface TextProps extends ComponentProps<typeof Text> {
 //   as?: ElementType
 // }
+
+// Alterando o nome dos componentes dentro do storybook para o nome desejado
+Heading.displayName = 'Heading'
