@@ -11,6 +11,11 @@ export default {
     size: 'md',
     variant: 'primary',
   },
+  argTypes: {
+    onClick: {
+      action: 'click', // Log de ações no componente
+    },
+  },
   tags: ['autodocs'], // non necessary tag, since the docs is configured to be on each story
 } as Meta<ButtonProps>
 
