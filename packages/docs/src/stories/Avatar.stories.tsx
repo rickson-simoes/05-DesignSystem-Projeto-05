@@ -15,4 +15,11 @@ export const WithFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 }

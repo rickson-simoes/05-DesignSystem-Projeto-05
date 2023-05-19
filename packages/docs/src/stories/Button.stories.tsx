@@ -7,11 +7,29 @@ export default {
   component: Button,
   args: {
     children: 'Send',
-    disabled: false,
-    size: 'md',
     variant: 'primary',
+    size: 'md',
+    disabled: false,
   },
   argTypes: {
+    // utilizando a opcao variant estabelecida no proprio componente Button(com uso de stitches) para designar as opcoes
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'select',
+      },
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
     onClick: {
       action: 'click', // Log de ações no componente
     },
