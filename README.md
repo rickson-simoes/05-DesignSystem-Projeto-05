@@ -1,6 +1,6 @@
 <h1 align="center">💠 Design System - Storybook</h1>
 
-Design URL: https://rickson-simoes.github.io/05-DesignSystem-Projeto-05
+Design URL: https://rickson-simoes.github.io/kenaifire-ui
 
 <h2>📝 Description</h2>
 
