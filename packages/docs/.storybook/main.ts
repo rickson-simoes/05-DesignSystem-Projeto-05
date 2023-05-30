@@ -23,7 +23,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if(configType == 'PRODUCTION') {
-      config.base = '/05-DesignSystem-Projeto-05/'
+      config.base = '/kenaifire-ui/'
     }
 
     return config
