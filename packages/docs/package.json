@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@kenaifire-ui/docs",
   "version": "1.0.0",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -24,10 +24,10 @@
     "vite": "^4.3.1"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@kenaifire-ui/eslint-config": "*",
+    "@kenaifire-ui/react": "*",
+    "@kenaifire-ui/tokens": "*",
+    "@kenaifire-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.0.17",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
