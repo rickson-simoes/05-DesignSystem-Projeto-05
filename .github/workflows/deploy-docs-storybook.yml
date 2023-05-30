@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - name: Deploy Storybook Design System IGNITE UI to Github Pages
+      - name: Deploy Storybook Design System KENAIFIRE-UI to Github Pages
         working-directory: ./packages/docs
         run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
