@@ -20,7 +20,12 @@ jobs:
           node-version: 18
 
       - run: npm ci
-      - run: npm run build
+
+      - name: run npm run build with turbo token cache from vercel
+        run: npm run build
+        env:
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN_VERCEL }}
+          TURBO_TEAM: ${{ secrets.TURBO_TEAM_VERCEL }}
 
       - name: Deploy Storybook Design System KENAIFIRE-UI to Github Pages
         working-directory: ./packages/docs
