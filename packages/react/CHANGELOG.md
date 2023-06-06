@@ -1,5 +1,11 @@
 # @kenaifire-ui/react
 
+## 1.0.2
+
+### Patch Changes
+
+- Update of styles and pass reference inside TextInput
+
 ## 1.0.1
 
 ### Patch Changes
