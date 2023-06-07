@@ -1,5 +1,11 @@
 # @kenaifire-ui/react
 
+## 2.1.0
+
+### Minor Changes
+
+- display name inside storybook from tooltip and toast
+
 ## 2.0.0
 
 ### Major Changes
