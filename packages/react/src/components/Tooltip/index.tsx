@@ -12,3 +12,5 @@ export interface TooltipProps {
   content: string
   isAvailable: 'Available' | 'Unavailable'
 }
+
+Tooltip.displayName = 'Tooltip'

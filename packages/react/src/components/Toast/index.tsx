@@ -22,3 +22,5 @@ export interface ToastProps {
   subTitle: string
   onCloseButton: () => {}
 }
+
+Toast.displayName = 'Toast'
