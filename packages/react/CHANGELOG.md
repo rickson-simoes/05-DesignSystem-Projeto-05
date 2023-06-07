@@ -1,5 +1,11 @@
 # @kenaifire-ui/react
 
+## 2.0.0
+
+### Major Changes
+
+- Implementation of Tooltip and Toast notification components
+
 ## 1.0.2
 
 ### Patch Changes
