@@ -2,7 +2,6 @@ import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
   backgroundColor: '$gray900',
-  padding: '$3 $4',
   borderRadius: '$sm',
   boxSizing: 'border-box',
   border: '2px solid $gray900',
@@ -10,7 +9,7 @@ export const TextInputContainer = styled('div', {
   alignItems: 'center',
 
   variants: {
-    size: {
+    sizeOf: {
       sm: {
         padding: '$2 $3',
       },
@@ -30,7 +29,7 @@ export const TextInputContainer = styled('div', {
   },
 
   defaultVariants: {
-    size: 'md',
+    sizeOf: 'md',
   },
 })
 

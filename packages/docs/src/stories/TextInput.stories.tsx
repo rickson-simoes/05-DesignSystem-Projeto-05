@@ -17,6 +17,17 @@ export default {
       )
     },
   ],
+  argTypes: {
+    sizeOf: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'radio',
+      },
+    },
+  },
+  args: {
+    sizeOf: 'md',
+  },
 } as Meta<TextInputProps>
 
 export const Primary: StoryObj<TextInputProps> = {
